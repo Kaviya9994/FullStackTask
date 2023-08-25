@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizomania</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quizomania</h1>
+        <div class="question-container">
+            <p id="question-text"></p>
+        </div>
+        <div class="options-container" id="options-container">
+            <!-- Options will be populated here -->
+        </div>
+        <div class="info-container">
+            <div class="timer-container">
+                Time Left: <span id="timer">30</span> seconds
+            </div>
+            <div class="score-container">
+                Score: <span id="score">0</span>
+            </div>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
